@@ -1,0 +1,13 @@
+{
+    "experiment_name": "linear",
+
+    "chunk_length": [5, 10],
+
+    "flapping": [False, True],
+    "zdim": [3, 5, 10],
+    "aero_format": ["tensor", "compressed"],
+    "augmented_format": ["linear", "none"],
+
+    "g": 9.81,
+    "ρ": 1.23,
+}

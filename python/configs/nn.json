@@ -1,0 +1,19 @@
+{
+    "experiment_name": "neural_networks",
+
+    "chunk_length": [5, 10],
+
+    "flapping": [False, True],
+    "zdim": [3, 5, 10],
+    "aero_format": ["tensor", "compressed"],
+    "augmented_format": "nn",
+
+    "num_hidden_layers": 2,
+    "activation": ["relu", "tanh"],
+    "hidden_size": [8, 32],
+    "dropout": 0.3,
+    "batch_norm": true,
+
+    "g": 9.81,
+    "ρ": 1.23,
+}
